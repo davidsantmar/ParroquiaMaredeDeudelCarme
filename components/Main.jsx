@@ -109,7 +109,7 @@ export function Main() {
           </Animated.View>
         </Pressable>
         <View style={{  flexDirection: 'row', alignItems: 'center'}}>
-          <Link asChild href="/timetable" style={{ color: "white", marginTop:"20", fontSize: 20, marginLeft: "170"}}>
+          <Link asChild href="/timetable" style={{ color: "white", marginTop:"20", fontSize: 20, marginLeft: "190"}}>
             <Pressable>
               {({ pressed }) => <MassIcon style={{ color: "white"}} />}
             </Pressable>
@@ -120,7 +120,7 @@ export function Main() {
           ]}>
             <View style={{ marginLeft: "50", flexDirection: "column", alignItems: "center"}}>
               <TouchIcon style={{fontSize: 48}} />
-              <Text style={{ color: "white", marginTop: "10"}} >Pulsa la imagen</Text>
+              <Text style={{ color: "white", marginTop: "10"}} >Pressiona la imatge</Text>
             </View>
           </Animated.View>
         </View>        

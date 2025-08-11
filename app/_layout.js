@@ -8,7 +8,7 @@ export default function Layout () {
         <View style={styles.container}>
           <Text style={{ color: "white", marginTop:"50", 
             fontSize: 25, textAlign: "center", fontWeight: "bold"}}>
-                Iglesia Ntra. Sra. Del Carmen
+                Esglèsia Ntra. Sra. Del Carme
           </Text>
           <Stack 
             screenOptions={{

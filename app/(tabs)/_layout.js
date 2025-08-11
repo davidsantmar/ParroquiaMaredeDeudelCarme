@@ -19,28 +19,28 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Inicio',
+          title: 'Inici',
           tabBarIcon: ({ color }) => <HomeIcon color={color} />
         }}
       />
       <Tabs.Screen
         name="about"
         options={{
-          title: 'Historia',
+          title: 'Història',
           tabBarIcon: ({ color }) => <HistoryIcon color={color} />
         }}
       />
       <Tabs.Screen
         name="news"
         options={{
-          title: 'Noticias',
+          title: 'Notícies',
           tabBarIcon: ({ color }) => <NewsIcon color={color} />
         }}
       />
       <Tabs.Screen
         name="contact"
         options={{
-          title: 'Contacto',
+          title: 'Contacte',
           tabBarIcon: ({ color }) => <ContactIcon color={color} />
         }}
       />
