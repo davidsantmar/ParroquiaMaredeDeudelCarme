@@ -1,17 +1,16 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faChurch } from '@fortawesome/free-solid-svg-icons';
 import { faBookBible } from '@fortawesome/free-solid-svg-icons';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faPrayingHands } from '@fortawesome/free-solid-svg-icons';
-
-// Agrega el ícono praying-hands a la librería
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
+// Agrega el icono praying-hands a la librería
 library.add(faPrayingHands);
 
 export const HomeIcon = (props) => (
-    <FontAwesomeIcon icon={faChurch} size={28} color="white" {...props} />
+    <FontAwesome5 name="church" size={24} color="black" {...props} />
 )
 
 export const HistoryIcon = (props) => (

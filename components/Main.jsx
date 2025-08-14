@@ -120,7 +120,7 @@ export function Main() {
           ]}>
             <View style={{ marginLeft: "50", flexDirection: "column", alignItems: "center"}}>
               <TouchIcon style={{fontSize: 48}} />
-              <Text style={{ color: "white", marginTop: "10"}} >Pressiona la imatge</Text>
+              <Text style={{ color: "white", marginTop: "10", marginRight: 20}} >Pressiona la imatge</Text>
             </View>
           </Animated.View>
         </View>        

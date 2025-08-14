@@ -2,9 +2,9 @@ import { View, Text, TextInput, StyleSheet, Pressable } from "react-native";
 import React, { useState } from 'react';
 import { PrayIcon } from "../../components/Icons";
 import * as EmailJS from '@emailjs/browser';
+import { EMAILJS_PUBLIC_KEY } from '@env';
 
 export default function Contact() {
-    //const publicKey = process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY;
     const [toSend, setToSend] = useState({
         from_name: '',
         to_name: '',
@@ -13,9 +13,8 @@ export default function Contact() {
         email: '',
     });
     const onSubmit = () => {
-        const publicKey = '0UT5YkEjEklW-5H09';
         EmailJS
-        .send('service_4kmjw87', 'template_ar6elm7', toSend, publicKey)
+        .send('service_4kmjw87', 'template_ar6elm7', toSend, EMAILJS_PUBLIC_KEY)
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
             // Limpiar el formulario

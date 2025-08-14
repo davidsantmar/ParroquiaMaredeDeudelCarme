@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Parròquia Mare de Déu del Carme",
-    "slug": "Parròquia Mare de Déu del Carme",
+    "slug": "first-react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
